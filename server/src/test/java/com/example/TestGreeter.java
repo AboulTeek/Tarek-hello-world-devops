@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.greaterThan;
 import static org.junit.Assert.assertThat;
 import static org.junit.matchers.JUnitMatchers.containsString;
 
-public class MyUnitTest {
+public class TestGreeter {
 
   @Test
   public void testConcatenate() {
