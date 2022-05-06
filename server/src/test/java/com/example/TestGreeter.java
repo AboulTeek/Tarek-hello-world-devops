@@ -1,18 +1,11 @@
-package com.example;
-
-import org.junit.Before;
-import org.junit.Test;
+package com.vogella.junit.first;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.Matchers.greaterThan;
-import static org.junit.Assert.assertThat;
-import static org.junit.matchers.JUnitMatchers.containsString;
-
-public class TestGreeter {
+class TestGreeter {
 
   @Test
   void demoTestMethod() {
-      assertTrue(true);
+    assertTrue(true);
   }
 }
