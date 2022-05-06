@@ -14,6 +14,4 @@ public class TestGreeter {
   void demoTestMethod() {
       assertTrue(true);
   }
-
-  }
 }
