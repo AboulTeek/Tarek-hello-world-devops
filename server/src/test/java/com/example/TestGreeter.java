@@ -33,7 +33,7 @@ public class TestGreeter {
 
   @Test
     public void testConcatenate() {
-        MyUnit myUnit = new MyUnit();
+        String myUnit = new MyUnit();
 
         String result = myUnit.concatenate("one", "two");
 
